@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopApp.MainPage">
+
+    <FlexLayout Direction="Column" JustifyContent="SpaceBetween" AlignContent="Center">
+        <Label Text="Nombre:" FlexLayout.Basis="10%" />
+        <Label Text="Apellido:"/>
+
+        <Label Text="Productos:"/>
+        <Border FlexLayout.Grow="1">
+            <CollectionView>
+                
+            </CollectionView>
+        </Border>
+
+        <Button Text="Guardar" />
+        <Button Text="Ver" />
+    </FlexLayout>
+
+
+
+</ContentPage>

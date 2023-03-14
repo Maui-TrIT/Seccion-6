@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopApp.MainPage">
+
+
+    <AbsoluteLayout>
+        <Button Text="Vaxi" AbsoluteLayout.LayoutBounds="4,4, 100, 50"/>
+        <Button Text="Drez" AbsoluteLayout.LayoutBounds="105,4, 100, 50"/>
+        <Label Text="vaxidrez.com" AbsoluteLayout.LayoutBounds="4, 60, 100, 50" />
+
+        <Rectangle Background="Black" AbsoluteLayout.LayoutBounds="40, 125, 5, 100" />
+        <Rectangle Background="Black" AbsoluteLayout.LayoutBounds="35, 215, 100, 5" />
+
+    </AbsoluteLayout>
+    
+    
+    
+
+
+
+</ContentPage>
